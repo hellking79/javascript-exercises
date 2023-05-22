@@ -28,6 +28,7 @@ result*=a[i]
 return result;
 };
 
+
   
 
 const power = function() {
