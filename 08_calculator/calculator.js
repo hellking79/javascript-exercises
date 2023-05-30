@@ -35,6 +35,7 @@ const power = function(b,e) {
   return b**e;
 	
 };
+//power
 
 const factorial = function(f) {
   if(f===1||f===0){
