@@ -31,12 +31,20 @@ return result;
 
   
 
-const power = function() {
+const power = function(b,e) {
+  return b**e;
 	
 };
 
-const factorial = function() {
-	
+const factorial = function(f) {
+  if(f===1||f===0){
+    return 1
+  }
+  let result=1;
+  for(i=1;i<=f;i++){
+    result*=i;
+  }
+	return result
 };
 
 // Do not edit below this line
