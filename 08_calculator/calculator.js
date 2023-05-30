@@ -45,8 +45,8 @@ const factorial = function(f) {
     result*=i;
   }
 	return result
-};
-
+}
+//work
 // Do not edit below this line
 module.exports = {
   add,
